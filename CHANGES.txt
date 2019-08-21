@@ -364,7 +364,7 @@
  * nodetool clearsnapshot requires --all to clear all snapshots (CASSANDRA-13391)
  * Correctly count range tombstones in traces and tombstone thresholds (CASSANDRA-8527)
  * cqlshrc.sample uses incorrect option for time formatting (CASSANDRA-14243)
-
+ * Fix InternodeOutboundMetrics overloaded bytes/count mixup (CASSANDRA-15186)
 
 3.11.5
  * Fix cassandra-env.sh to use $CASSANDRA_CONF to find cassandra-jaas.config (CASSANDRA-14305)
